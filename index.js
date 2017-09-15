@@ -8,6 +8,3 @@ settings.require = require.bind();
 settings.root = __dirname;
 
 core.boot(settings);
-
-const t = use.serve('test.hhh');
-t.hallo();
