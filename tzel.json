@@ -24,7 +24,8 @@
   },
   "modules": {
     "enabled": [
-      "tzel-core"
+      "tzel-core",
+      "tzel-cli"
     ]
   }
 }
