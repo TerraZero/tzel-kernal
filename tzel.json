@@ -27,5 +27,11 @@
       "tzel-core",
       "tzel-cli"
     ]
+  },
+  "path": {
+    "files": "files",
+    "tmp": "files/tmp",
+    "configs": "files/configs",
+    "tpls": "files/tpls"
   }
 }

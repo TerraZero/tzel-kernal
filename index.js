@@ -6,11 +6,9 @@ const path = require('path');
 
 const core = require('tzel-core');
 
-let settings = null;
-if (fs.existsSync('./install/configs/configs.json')) {
-  settings = require('./install/configs/configs.json');
-} else {
-  settings = require('./tzel.json');
+let settings = require('./tzel.json');
+if (fs.existsSync(__dirname + '/' + settings.path.configs + '/configs.json')) {
+  settings = require(__dirname + '/' + settings.path.configs + '/configs.json');
 }
 
 settings.require = require.bind();
