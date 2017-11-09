@@ -62,3 +62,6 @@ package-lock.json
 
 /files
 /.vscode
+
+gulpfile.js
+gulp
